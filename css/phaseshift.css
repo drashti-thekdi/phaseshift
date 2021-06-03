@@ -1,0 +1,332 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*wrapper start*/
+
+      /*header starts*/
+.wrapper{
+    width: 100%;
+     background-image:url(../img/Phaseshift/bg.jpg);
+    background-size: contain;
+    
+}
+.header{
+    width: 100%;
+    background-color: black;
+    color: #fff;
+}
+.header h3{
+    font-size: 13px;
+    padding: 5px;
+    float: left;
+}
+.header h3 .lighttext{
+    font-weight: 100;
+    opacity: 0.3;
+}
+ul{
+     float: right;
+}
+li{
+
+    float: left;
+    margin-right: 20px;
+    list-style-type: none;
+    font-size: 13px;
+    font-weight: 100;
+
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+  /*header ends*/
+
+  /*master start here*/
+
+
+.master{
+    max-width:900px;
+    margin: 0 auto;
+   
+   
+}
+
+.master .banner-text{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    
+}
+
+
+.banner-text p{
+    font-weight:100;
+    font-size: 15px;
+    line-height: 25px;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.banner-text button{
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    background-color: rgb(236, 59, 97);
+    border: 0;
+    border-radius: 4px;
+    font-weight:600;
+    margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* six box start*/
+.six-box{
+    width: 100%;
+    margin-top: 90px;
+   
+
+}
+.box{
+    width: 30%;
+    background-color: #fff;
+    padding-bottom: 30px;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+.box img{
+    width: 100%;
+}
+.box h3{
+
+      font-size: 13px;
+      font-weight: 400;
+      padding: 20px;
+      line-height: 22px;
+
+}
+.box button{
+
+    font-size: 12px;
+     width: 100px;
+     height: 35px;
+     color: #fff;
+     background-color: rgb(236, 59, 97);
+     border: 0;
+     border-radius: 4px;
+     font-weight:600;
+     font-family: 'Raleway', sans-serif;
+   
+
+}
+
+/* six box ends*/
+
+
+/*two section start*/
+
+.two-section{
+    width: 100%;
+    margin-top: 30px;
+    color: #fff;
+    
+}
+
+.two-section .left{
+    width: 45%;
+    float: left;
+    
+   
+}
+.left .fa , .right .fa{
+    font-size: 25px;
+    margin-left: 30px;
+   
+}
+.left h2 , .right h2{
+     display: inline;
+     padding:20px;
+     font-size: 20px;
+}
+.left p , .right p{
+  padding:10px;
+  font-size: 11px;
+  font-weight: 100;
+  position: relative;
+  line-height: 20px;
+  margin-left: 70px;
+  
+}
+
+.two-section .right{
+    width: 45%;
+    float: right;
+}
+
+
+/*two section ends*/
+
+/*master ends here*/
+
+/*wrapper ends*/
+
+
+/*pink wrapper start*/
+.pink-wrapper{
+    width: 100%;
+    background-color: rgb(224, 48, 130);
+    padding:20px 0;
+}
+.master2{
+    max-width: 900px;
+    margin:  0 auto;
+    color: #fff;
+    text-align: center;
+}
+.master2 h2{
+
+   
+    font-weight: 800;
+   
+}
+.master2 p{
+    font-size: 13px;
+    font-weight: 200;
+    margin-top: -15px;
+}
+.row1{
+    width: 60%;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color:white;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    color: black;
+    
+}
+.row1 .name , .row2 .Email , .row3 .Message{
+    border: none;
+    width: 100%;
+   
+}
+.row1 p , .row2 p , .row3 p{
+    text-align: left;
+    padding:10px;
+}
+.row2{
+    width: 60%;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color:white;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.row3{
+    width: 60%;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color:white;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    color: black;
+   
+}
+
+.master2 button{
+
+    width: 130px;
+    height: 40px;
+    background:none;
+    border:1px solid #fff;
+    font-size: 13px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    padding:5px;
+    border-radius: 4px;
+}
+
+/*pink wrapper ends*/
+
+
+.footer-full{
+
+    width: 100%;
+    height: 130px;
+    background-color: black;
+
+}
+.footer{
+    margin:  0 auto;
+    padding:20px;
+    color: #fff;
+    text-align: center;
+}
+.footer p{
+    font-size: 11px;
+    font-weight: 100;
+    opacity: 0.3;
+}
+.footer .fa{
+
+    font-size: 11px;
+    color: gray;
+    padding:5px;
+    margin-left: 5px;
+    border:1px solid gray;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width:800px){
+
+   ul{
+        display:none;
+    }
+    .wrapper{
+       
+        background-size: cover;
+        
+    }
+    .banner-text p{
+      font-size: 12px;
+    }
+
+    .box{
+        width: 40%;
+    }
+
+    .left .fa , .right .fa{
+       color: yellow;
+       font-size: 15px;
+       
+    }
+    .left h2 , .right h2{
+         font-size: 11px;
+         
+    }
+   
+
+
+
+   
+   
+}
